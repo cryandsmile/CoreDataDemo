@@ -63,7 +63,7 @@
 - (IBAction)deleteData:(UIButton *)sender {
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     NSFetchRequest *fetchRequest = [Student fetchRequest];
-    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"studentAge = %@", @(10)];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"studentAge = %@", @(25)];
     NSError *error = nil;
     NSArray *students = [appDelegate.context executeFetchRequest:fetchRequest error:&error];
     

@@ -33,10 +33,10 @@
 		24A4B12F214798B800EA584C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24A4B13C2148A23200EA584C /* CoreDataShareManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataShareManage.h; sourceTree = "<group>"; };
 		24A4B13D2148A23200EA584C /* CoreDataShareManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataShareManage.m; sourceTree = "<group>"; };
-		24A4B13F2148B4E800EA584C /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataProperties.h"; path = "coreDataDemo/Student+CoreDataProperties.h"; sourceTree = "<group>"; };
-		24A4B1402148B4E800EA584C /* Student+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataClass.h"; path = "coreDataDemo/Student+CoreDataClass.h"; sourceTree = "<group>"; };
-		24A4B1412148B4E800EA584C /* Student+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataClass.m"; path = "coreDataDemo/Student+CoreDataClass.m"; sourceTree = "<group>"; };
-		24A4B1422148B4E800EA584C /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataProperties.m"; path = "coreDataDemo/Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		24A4B13F2148B4E800EA584C /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		24A4B1402148B4E800EA584C /* Student+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		24A4B1412148B4E800EA584C /* Student+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		24A4B1422148B4E800EA584C /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,6 @@
 		24A4B111214798B600EA584C = {
 			isa = PBXGroup;
 			children = (
-				24A4B13F2148B4E800EA584C /* Student+CoreDataProperties.h */,
-				24A4B1402148B4E800EA584C /* Student+CoreDataClass.h */,
-				24A4B1412148B4E800EA584C /* Student+CoreDataClass.m */,
-				24A4B1422148B4E800EA584C /* Student+CoreDataProperties.m */,
 				24A4B11C214798B600EA584C /* coreDataDemo */,
 				24A4B11B214798B600EA584C /* Products */,
 			);
@@ -73,6 +69,10 @@
 		24A4B11C214798B600EA584C /* coreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				24A4B13F2148B4E800EA584C /* Student+CoreDataProperties.h */,
+				24A4B1402148B4E800EA584C /* Student+CoreDataClass.h */,
+				24A4B1412148B4E800EA584C /* Student+CoreDataClass.m */,
+				24A4B1422148B4E800EA584C /* Student+CoreDataProperties.m */,
 				24A4B11D214798B600EA584C /* AppDelegate.h */,
 				24A4B11E214798B600EA584C /* AppDelegate.m */,
 				24A4B120214798B600EA584C /* ViewController.h */,
